@@ -8,3 +8,6 @@ deployer/resources/
 Makefile*
 mta-*
 approuter/*/webapp/
+/docs
+docs/
+docs
