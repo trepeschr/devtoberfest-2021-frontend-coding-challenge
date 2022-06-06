@@ -33,6 +33,7 @@
         }
     },
     "sap.ui5": {
+        "async": true,
         "flexEnabled": true,
         "rootView": {
             "viewName": "com.devtoberfest.devtoberfest2021FrontendCodingChallenge.view.MainView",
@@ -59,7 +60,7 @@
                     "bundleName": "com.devtoberfest.devtoberfest2021FrontendCodingChallenge.i18n.i18n",
                     "bundleUrl": "/i18n/com.devtoberfest.devtoberfest2021FrontendCodingChallenge.i18n.properties",
                      "async": true,
-					"supportedLocales": ["en", "de"],
+					"supportedLocales": ["en"],
 					"fallbackLocale": "en"
                 }
             },
@@ -77,6 +78,7 @@
         },
         "routing": {
             "config": {
+                "async": true,
                 "routerClass": "sap.m.routing.Router",
                 "viewType": "XML",
                 "viewPath": "com.devtoberfest.devtoberfest2021FrontendCodingChallenge.view",
